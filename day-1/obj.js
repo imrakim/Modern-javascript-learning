@@ -29,14 +29,28 @@ const useThis = {
   },
 };
 
-Object.assign(useThis,details)
+Object.assign(useThis, details);
 
-
-useThis.name=function(){
-    return( this.fristName+" "+this.lastName).toUpperCase();
-}
+useThis.name = function () {
+  return (this.fristName + " " + this.lastName).toUpperCase();
+};
 let again = document.getElementById("mdtest");
 again.innerHTML = useThis.fullName();
 
-const dec = document.getElementById('mdtest1')
-dec.innerHTML = 'My name is '+ useThis.name();
+const dec = document.getElementById("mdtest1");
+dec.innerHTML = "My name is " + useThis.name();
+
+
+
+
+
+function conssts(frist, last, age, eye) {
+  this.fristName = frist;
+  this.lastName = last;
+  this.ages = age;
+  this.eyes = eye;
+}
+
+let myName = new conssts("Rakim", "Ali", 21, "black");
+let rakim = document.getElementById("my");
+rakim.innerHTML = "My Name is " + myName.fristName;

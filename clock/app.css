@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    height: 500px; 
+    background-color: black; 
+}
+.circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+.circle.green {
+    border-color: green;
+}
+.circle.red {
+    border-color: red;
+}
+.circle.yellow {
+    border-color: yellow;
+}
+.number {
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
