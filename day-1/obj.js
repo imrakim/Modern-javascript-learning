@@ -28,8 +28,12 @@ const useThis = {
     return this.fristName + " " + this.lastName;
   },
 };
+
+Object.assign(useThis,details)
+
+
 useThis.name=function(){
-    return this.fristName+" "+this.lastName;
+    return( this.fristName+" "+this.lastName).toUpperCase();
 }
 let again = document.getElementById("mdtest");
 again.innerHTML = useThis.fullName();
