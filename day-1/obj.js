@@ -20,13 +20,19 @@ connect.innerHTML =
   details.nationality;
 
 const useThis = {
-    fristName:"Rakim",
-    lastName :"Ali",
-    age : 21,
-    schoolName:"Uttara High School And College",
-    fullName : function(){
-        return this.fristName + " " + this.lastName
-    }
+  fristName: "Rakim",
+  lastName: "Ali",
+  age: 21,
+  schoolName: "Uttara High School And College",
+  fullName: function () {
+    return this.fristName + " " + this.lastName;
+  },
 };
-let again = document.getElementById('mdtest');
-again.innerHTML=useThis.fullName();
+useThis.name=function(){
+    return this.fristName+" "+this.lastName;
+}
+let again = document.getElementById("mdtest");
+again.innerHTML = useThis.fullName();
+
+const dec = document.getElementById('mdtest1')
+dec.innerHTML = 'My name is '+ useThis.name();
