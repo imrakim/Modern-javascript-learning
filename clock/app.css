@@ -29,3 +29,8 @@
     transform: translateX(-50%);
     color: white;
 }
+.day-night{
+    color: white;
+    position: absolute;
+    left: 100px;
+}

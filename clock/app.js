@@ -1,16 +1,10 @@
 let hr, mn, sec;
 
 function date() {
-
-
-
-
-    
   let time = new Date();
   hr = time.getHours();
   mn = time.getMinutes();
   sec = time.getSeconds();
-
 
   hr = hr < 10 ? "0" + hr : hr;
   mn = mn < 10 ? "0" + mn : mn;
