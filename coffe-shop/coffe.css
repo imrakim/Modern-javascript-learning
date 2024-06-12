@@ -1,2 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.fnt-color-size {
+  font-family: Poppins;
+}
+
+.fnt-color-size .gn-bg {
+  background-color: #017143;
+  border-radius: 25px;
+}
+
+.hero-1 .ft-bold h2 {
+  font-size: 40px;
+  
+}
+.hero-1 .ft-bold .txt-1{
+    font-size: 50px; 
+}
+.hero-1 .ft-bold .txt-1 span{
+    color: #017143;
+    font-size: 50px;
+}
+.hero-1 .ft-bold button{
+    background-color:#017143;
+    border-radius: 25px;
+    color: #fff;
+}
+.hero-1 .ft-bold #cup1{
+    position: absolute;
+    bottom: 40px;
+    right: 70px;
+    position: fixed;
+}
