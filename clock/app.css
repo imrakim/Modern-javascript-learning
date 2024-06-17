@@ -1,45 +1,51 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-
-
 .container {
-    display: flex;
-    /* justify-content: space-evenly; */
-    justify-content: center;
-    align-items: center;
-    height: 500px; 
-    background-color: black; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: black;
+}
+.circle-1 {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 6px solid;
+  background-color: white;
+}
+.circle-1.green {
+  border-color: rgb(41, 238, 41);
 }
 .circle {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 5px solid;
-    background-color: white;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 6px solid;
+  background-color: white;
 }
-.circle.green {
-    border-color: green;
-}
+
 .circle.red {
-    border-color: red;
+  border-color: red;
 }
 .circle.yellow {
-    border-color: yellow;
+  border-color: yellow;
 }
 .number {
-    position: absolute;
-    top: 40%; 
-    left: 50%;
-    transform: translateX(-50%);
-    color: rgb(5, 5, 5);
-    font-size: 20px;
-    font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(5, 5, 5);
+  font-size: 20px;
+  font-weight: bold;
 }
-.day-night{
-    color: white;
-    position: absolute;
-    left: 100px;
+.day-night {
+  color: white;
+  position: absolute;
+  left: 100px;
 }

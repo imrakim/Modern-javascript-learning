@@ -1,4 +1,4 @@
-// let hr, mn, sec;
+// let hr, mn, sec, ampm;
 
 // function date() {
 //   let time = new Date();
@@ -9,11 +9,13 @@
 //   hr = hr < 10 ? "0" + hr : hr;
 //   mn = mn < 10 ? "0" + mn : mn;
 //   sec = sec < 10 ? "0" + sec : sec;
+//   ampm = hr >= 12 ? "PM" : "AM";
 
 //   return {
 //     hr: hr,
 //     mn: mn,
 //     sec: sec,
+//     ampm: ampm,
 //   };
 // }
 
@@ -22,16 +24,13 @@
 //   document.getElementById("hour").innerHTML = timeinfo.hr;
 //   document.getElementById("min").innerHTML = timeinfo.mn;
 //   document.getElementById("sec").innerHTML = timeinfo.sec;
+//   document.getElementById("ampm").innerHTML = timeinfo.ampm;
 // }
 // setInterval(updateTime, 1000);
 // updateTime();
 
-
-
-
-
 //from chat gpt
- 
+
 function updateTime() {
   let time = new Date();
   let hr = time.getHours();
@@ -51,4 +50,3 @@ function updateTime() {
 
 setInterval(updateTime, 1000);
 updateTime();
-
