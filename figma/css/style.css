@@ -4,3 +4,10 @@
 * {
     font-family: "Roboto Mono", monospace;
 }
+
+.navbar-toggler:focus{
+box-shadow: none;
+}
+.nav-link{
+    color: black !important;
+}
