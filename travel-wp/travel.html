@@ -1,78 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="travel.css">
-    <link rel="stylesheet" href="../figma-1/min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Travel</title>
+    <link rel="stylesheet" href="travel.css" />
+    <link rel="stylesheet" href="../figma-1/min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
     <!-- header section -->
-     <header>
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container">
-              <a class="navbar-brand" href="#"><img src="./img/logo.png" width="201px" height="45px" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link color"  href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Packages</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Testimonial</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Content</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-
-          <div class="container st1-img  d-flex">
-            <div class="align-content-center m-auto">
-                <p class="text-white text-center fs-1 fw-bold ">Explore Your Travel</>
-                <p class="text-center text-white">Lorem ipsum dolor sit amet,  consectetur adipisicing elit.  Voluptates magni a vitae  <br> sit quod eum pariatur consectetur consequatur.</p>
-                <div class="row bg-color">
-                  <div class="col-3 clr mt-2"><span class="px-4">Where go</span></div>
-                  <div class="col-3"><select class="form-select" aria-label="Default select example">
-                    <option selected>When go</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select></div>
-                  <div class="col-3"><select class="form-select" aria-label="Default select example">
-                    <option selected>Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select></div>
-                  <div class="col-3 pad"><button class="px-3 btn" py-2><i class="bi bi-search"></i> Find Now</button></div>
-                </div>
-            </div>
-           
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./img/logo.png" width="201px" height="45px" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link color" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Content</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
-        
-          
-            
-          
-     </header>
+      <div class="container st1-img d-flex px-5">
+        <div class="align-content-center m-auto txt2">
+          <p class="text-white text-center fs-1 fw-bold txt">
+            Explore Your Travel
+          </p>
+          <p class="text-center text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+            magni a vitae <br />
+            sit quod eum pariatur consectetur consequatur.
+          </p>
+          <div class="row bg-color">
+            <div class="col-3 col-12 col-sm-6 col-md-3 clr pt-3 pb-2">
+              <span class="px-4">Where go</span>
+            </div>
+            <div class="col-3 col-12 col-sm-6 col-md-3 pt-2">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>When go</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-3 col-12 col-sm-6 col-md-3 pt-2">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-3 col-12 col-sm-6 col-md-3 mt-2 pad">
+              <button class="px-3 btn py-2" type="button">
+                <i class="bi bi-search"></i> Find Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- header section -->
 
-
+    <!-- popular tou plan -->
+     <section class="container mt-5 pt-4 py-3">
+      <div class="row">
+        <div class="col-6 col-md-6 col-12">
+          <h4 class="fw-bold fs-2">Our Popular Tour Plans</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas iste fugiat quibusdam Lorem, ipsum dolor. </p>
+          <ul>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, iste deserunt? Id aspernatur earum pariatur animi aliquid deleniti corrupti? Excepturi!</li>
+          </ul>
+          <ul>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, iste deserunt? Id aspernatur earum pariatur animi aliquid deleniti corrupti? Excepturi!</li>
+          </ul>
+          <ul>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, iste deserunt? </li>
+          </ul>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis pariatur, similique dolor ab voluptas est! Minus maxime aspernatur ad tenetur ratione dolorum!</p>
+         <div class="pad"> <button class="btn sm-btn">Read More</button></div>
+        </div>
+        <div class="col-6 col-md-6 col-12">
+          <img src="./img/pexels-asadphoto-1268855.jpg" class="img-fluid py-5  img-thumbnail shadow" alt="">
+        </div>
+      </div>
+     </section>
+    <!-- popular tou plan -->
 
     <script src="travel.js"></script>
     <script src="../figma-1/bundle.js"></script>
-</body>
+  </body>
 </html>
