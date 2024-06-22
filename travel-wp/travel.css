@@ -1,0 +1,11 @@
+.st1-img {
+    position: relative;
+    background-image: url(./img/pexels-asadphoto-1450363.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+
