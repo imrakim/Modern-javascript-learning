@@ -1,11 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 .st1-img {
-    position: relative;
-    background-image: url(./img/pexels-asadphoto-1450363.jpg);
+    background-image: url(./img/pexels-asadphoto-3601456.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     width: 100%;
     border-radius: 25px;
 }
+.banner_overly{
+    opacity: 0.5;
+    z-index: 2;
+}
 
 
+.color{
+    color: #ff5806 !important;
+}
+.nav-link{
+    font-family: "Mulish", sans-serif;
+}
+.nav-link:hover{
+    color: #ff5806 !important;
+}
+.pad button{
+    padding: 7px;
+    border-radius: 9px;
+    border: none;
+    background-color: #ff5400;
+    color: #fff;
+    box-shadow: none !important;
+}
+.pad button:hover{
+    background-color: #ff5400;
+    color: #fff;
+}
+.clr span{
+    padding: 10px;
+    border-radius: 9px;
+    background-color: #fff;
+}
+.bg-color{
+    background-color: #ffffff65;
+    padding: 10px;
+    border-radius: 10px;
+    
+}

@@ -6,11 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="travel.css">
     <link rel="stylesheet" href="../figma-1/min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <!-- header section -->
      <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="./img/logo.png" width="201px" height="45px" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +20,7 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link "  href="#">Home</a>
+                    <a class="nav-link color"  href="#">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Packages</a>
@@ -38,12 +39,30 @@
             </div>
           </nav>
 
-          <div class="container banner_overly">
-            <div class="st1-img align-content-center">
+          <div class="container st1-img  d-flex">
+            <div class="align-content-center m-auto">
                 <p class="text-white text-center fs-1 fw-bold ">Explore Your Travel</>
-                <p class="text-center text-white">Lorem ipsum dolor sit amet,  consectetur adipisicing elit. <br> Voluptates, magni a vitae dolore reprehenderit accusantium, <br> sit quod eum pariatur consectetur consequatur.</p>
+                <p class="text-center text-white">Lorem ipsum dolor sit amet,  consectetur adipisicing elit.  Voluptates magni a vitae  <br> sit quod eum pariatur consectetur consequatur.</p>
+                <div class="row bg-color">
+                  <div class="col-3 clr mt-2"><span class="px-4">Where go</span></div>
+                  <div class="col-3"><select class="form-select" aria-label="Default select example">
+                    <option selected>When go</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select></div>
+                  <div class="col-3"><select class="form-select" aria-label="Default select example">
+                    <option selected>Select</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select></div>
+                  <div class="col-3 pad"><button class="px-3 btn" py-2><i class="bi bi-search"></i> Find Now</button></div>
+                </div>
             </div>
+           
         </div>
+
         
           
             
