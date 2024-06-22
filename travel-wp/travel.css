@@ -44,6 +44,21 @@
   padding: 10px;
   border-radius: 10px;
 }
-.rounded1{
-    border-radius: 12px !important;
+.rounded1 {
+  border-radius: 12px !important;
+}
+img {
+  border-radius: 12px;
+}
+.border-1{
+    background-color: rgba(203, 243, 230, 0.438);
+    border-radius: 12px;
+    padding-left: 10px;
+    padding: 10px;
+}
+.border-2{
+    background-color: rgba(243, 203, 238, 0.438);
+    border-radius: 12px;
+    padding-left: 10px;
+    padding: 10px;
 }
